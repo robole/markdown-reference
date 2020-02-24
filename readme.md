@@ -1,11 +1,11 @@
 # Markdown Cheatsheet
 
+This is a comprehensive and succint cheatsheet for markdown. 
+
 ![screenshot](img/screenshot.jpg)
 ![screenshot 2](img/screenshot2.jpg)
 ![screenshot 3](img/screenshot3.jpg)
 ![screenshot 4](img/screenshot4.jpg)
-
-This is a comprehensive and succint cheatsheet for markdown. 
 
 Over time I noticed some inconsistencies when I was using markdown in different applications, and on different platforms. It irked me, and I wanted to know what the real f-ing standard is!
 
