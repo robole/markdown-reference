@@ -4,7 +4,7 @@
 
 This is a comprehensive and succint reference for markdown. Its includes the following:
 
-1. **Cheatsheet**: `Markdown Cheatsheet.docx` is formatted as below, Markdown Cheatsheet.pdf` is a converted PDF version.
+1. **Cheatsheet**: `Markdown Cheatsheet.docx` is formatted as below, Markdown Cheatsheet.pdf` is a converted PDF version.<br/>
 ![cheatsheet page 1](img/screenshot.jpg)
 ![cheatsheet page 2](img/screenshot2.jpg)
 1. **Complete reference**: A more detailed look into all things markdown can be found in the [repository wiki](https://github.com/robole/markdown-cheatsheet/wiki). This has the same content as `markdown.md`. 
