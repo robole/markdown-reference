@@ -1,9 +1,9 @@
 # Markdown
 
-1. [What is it?](#what-is-it?)
-1. [Why use it?](#why-use-it?)
+1. [What is it?](#what-is-it)
+1. [Why use it?](#why-use-it)
 1. [Specifications](#specifications)
-1. [How do I use it?](#how-do-i-use-it?)
+1. [How do I use it?](#how-do-i-use-it)
 1. [Syntax](#syntax)
 1. [Extended Syntax](#extended-syntax)
 
@@ -54,7 +54,7 @@ There were different efforts to standardize implementations and form an offical 
 
 - [CommonMark](https://commonmark.org/): A strongly defined, highly compatible specification of Markdown.
 - [GitHub Flavored Markdown (GFM)](https://github.com/gfm): It is based on CommonMark, and supports syntax extensions such as: tables, task lists, autolinking, strikethrough, and disallowing some raw HTML. It supports some specific features to github such as: mentions.
-- [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/): Extension of markdown originally written in PHP but ported to other languages, which implements it's own specific set of amendments and extensions including: markdown inside HTML, definition lists, abbreviations, and footnotes. 
+- [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/): This is an extension of markdown originally written in PHP but ported to other languages, it implements it's own specific set of amendments and extensions including: markdown inside HTML, definition lists, abbreviations, and footnotes. 
 
 
 ## How do I use it?
@@ -72,7 +72,7 @@ Online editors:
 
 Desktop editors:
 - [IA Writer](https://ia.net/writer): Considered to be a “gold standard” for markdown editors. It's clean and easy to use, and designed to remove distractions so you can focus on the task at hand. It comes equipped with a preview option, focus mode, and custom keyboard shelf that keeps all your necessary tools and Markdown shortcuts close by. With loads of export options, iA Writer is an ideal choice for mobile writing. Available for Mac, Windows, iOS, and Android.
--[Typora](https://typora.io): Comprehensive and robust editor with syntax highlighting,support for advanced Markdown features such as mathematics and diagrams, and a wide range of export options. Typora automatically hides Markdown formatting, showing instead a preview of the final document. Available for Windows and Mac.
+- [Typora](https://typora.io): Comprehensive and robust editor with syntax highlighting,support for advanced Markdown features such as mathematics and diagrams, and a wide range of export options. Typora automatically hides Markdown formatting, showing instead a preview of the final document. Available for Windows and Mac.
 
 IDEs:
 - [Atom](https://atom.io/): Provides a built-in side-by-side HTML preview. Other plugins available.
