@@ -2,17 +2,12 @@
 
 🌟 *Star this repository if it was helpful to you.*
 
-This is a comprehensive and succint reference for markdown. 
+This is a comprehensive and succint reference for markdown. Its includes the following:
 
-- Cheatsheet: `Markdown Cheatsheet.docx` is formatted as below, you can edit it yourself if you want to create a more personal style! `Markdown Cheatsheet.pdf` is the converted version of the docx.
-
+1. **Cheatsheet**: `Markdown Cheatsheet.docx` is formatted as below, Markdown Cheatsheet.pdf` is a converted PDF version.
 ![cheatsheet page 1](img/screenshot.jpg)
-
-
-- Complete reference: A more detailed look at all things markdown can be found in the [repository wiki](https://github.com/robole/markdown-cheatsheet/wiki), which is the same text as `markdown.md`. 
-
-
-- `Test.md`: This that has all of the snippets from the cheatsheet, and more, if you want to test how an application handles the different features of markdown and extended markdown. There are some inconsistencies in different applications, so this can be helpful to figure that out quickly.
-
-- `Extended Markdown Applicaiton Support.xlsx`: A spreadsheet to show which extended markdown features some particular applications support. Atom, Notepad++, Github and Visual Code Studio are included. This table is inside the cheatsheet.
+![cheatsheet page 2](img/screenshot2.jpg)
+1. **Complete reference**: A more detailed look into all things markdown can be found in the [repository wiki](https://github.com/robole/markdown-cheatsheet/wiki). This has the same content as `markdown.md`. 
+1. **Test file**: `Test.md` has all of the snippets from the cheatsheet, and more, if you want to test how an application handles the different features of (extended) markdown. 
+1. **Extended Markdown Applicaiton Support**: `Extended Markdown Application Support.xlsx` shows which extended markdown features some particular applications support. Atom, Notepad++, Github, and Visual Code Studio are included. This is inside the cheatsheet as a table also.
 

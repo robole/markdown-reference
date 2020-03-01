@@ -36,7 +36,7 @@ The syntax is short and simple to use. It is not that much different than plain 
 
 ### Easy to convert to HTML and other formats
 
-There a many different tools available to convert to HTML reliably. There is also a lot of support for conversion fo other formats such as PDF. 
+There are many different tools available to convert markdown to HTML reliably. There is also a lot of support for conversion to other formats such as PDF and ePub. 
 
 ### You can use any editor and on any platform
 
@@ -64,7 +64,6 @@ There were different efforts to standardize implementations and form an offical 
 To author and view a document there are many editors and plugins for applications available, they usually give you a live preview pane. Some give you WYSIWYG controls, special modes, document structure overview, and export options to generate the markdown into different formats. I will mention a few popular options here, this is not meant to be an exhaustive list!
 
 ![Stackedit screenshot](/img/stackedit-screenshot.jpg)
-<small>StackEdit</small>
 
 Online editors:
 - [StackEdit](https://stackedit.io/app): StackEdit is a WYSIWYG-style editor with excellent all-round markdown support. Its features include the ability to sync and save files to third-party services (Google Drive, Dropbox), output to various file formats (HTML, PDF), configure style and metadata properties for files, and work offline. It is opensource. You signup to use some features.
@@ -331,9 +330,9 @@ becomes this:
 
 There are two ways to add emoji to Markdown files: copy and paste the emoji into your Markdown-formatted text, or type emoji shortcodes.
 
-In most cases, you can simply copy an emoji from a source like [Emojipedia](https://emojipedia.org/) and paste it into your document. 
+In most cases, you can simply copy an emoji from a source like [Emojipedia](https://emojipedia.org/), and paste it into your document. 
 
-Some Markdown applications allow you to insert emoji by typing emoji shortcodes. You surround the name of an emoji with colons.
+Some Markdown applications allow you to insert emoji by typing shortcodes. You surround the name of an emoji with colons.
 
 	That is so funny! :joy:
 
