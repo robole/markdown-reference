@@ -337,6 +337,6 @@ Some Markdown applications allow you to insert emoji by typing emoji shortcodes.
 
 	That is so funny! :joy:
 
-	becomes this:
+becomes this:
 
 That is so funny! :joy:
