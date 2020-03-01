@@ -13,4 +13,4 @@ In the cheatsheet, there is a table of which extended syntax features are suppor
 
 ![cheatsheet page 4](img/screenshot4.jpg)
 
-There is a `test.md` that has all of the snippets from the cheatsheet, and more, if you want to test how an application handles markdown. Over time, I noticed some inconsistencies when I was using markdown in different applications, and on different platforms. It irked me, and I wanted to know what the real f-ing standard is! 
+There is a `test.md` that has all of the snippets from the cheatsheet, and more, if you want to test how an application handles the different features of markdown and extended markdown. There are some inconsistencies in different applications, so it can be helpful to give a quick overview. 
