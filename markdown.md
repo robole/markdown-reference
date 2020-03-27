@@ -10,15 +10,15 @@
 
 # What is it?
 
-Markdown is a simple markup langauge written in plain text. It was designed to produce documents for the internet, which are easy to write and read. Documents use a *.md* and *.markdown* file extension.
+Markdown is a minimal [markup langauge](https://en.wikipedia.org/wiki/Markup_language) to produce documents for the internet. Documents have a *.md* and *.markdown* file extension.
 
-John Gruber wrote and released an informal specification through his [syntax description](https://daringfireball.net/projects/markdown/syntax) and a Perl script (*Markdown.pl*) in 2004. The idea was that the markdown source file is parsed by the script and transformed into a HTML file to be published online. 
+In 2004, John Gruber wrote and released the informal specification for Markdown. Markdown was designed to produce documents that are easy to write and read. The motivation was to create a more eloquent alternative to writing in HTML, which can be tedious adding tags to "mark" every piece of content. Markdown has a simple syntax in plain text. 
 
 ### Philosophy
 
 - Easy to write
 - Easy to read
-- Can publish as-is on the internet
+- Can be published as-is on the internet
 
 >*The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.* **- John Gruber**
 
@@ -36,50 +36,56 @@ The syntax is short and simple to use. It is not that much different than plain 
 
 ### Easy to convert to HTML and other formats
 
-There are many different tools available to convert markdown to HTML reliably. There is also a lot of support for conversion to other formats such as PDF and ePub. 
+There are many different applications available to convert markdown to HTML and other formats reliably. 
 
-### You can use any editor and on any platform
+### Use any text editor
 
-You can use any text editor you chose, and on any platform you wish. 
+Any text editor can be used.
+
+### Portable format
+
+It is a plain text format and is not tied to any Operating System or application.
 
 ## Specifications
 
+In 2004, John Gruber wrote and released an informal specification with his [syntax description](https://daringfireball.net/projects/markdown/syntax) and a Perl script (*Markdown.pl*). The idea was that the markdown source file is parsed by the script and transformed into a HTML file to be published online. 
+
 ### Standardization
 
-Markdown has been widely embraced and adopted. However, the initial specification of Markdown contained ambiguities and unanswered questions, and no complete de-facto standard has ever really existed, this has resulted in implementations having some subtle differences, and many now come with syntax extensions to add more features to the initial specification. 
+Markdown has been widely embraced and adopted. However, the initial specification of Markdown contained ambiguities and unanswered questions, and no complete de-facto standard has ever really existed, this has resulted in implementations having some subtle differences, and many now come have been extended with extra features. 
 
 There were different efforts to standardize implementations and form an offical standard, but none proved successful. In 2012, a group began an organised effort to form a standard, John Gruber objected to their plans, and eventually it became an alternative specification called [CommonMark](https://commonmark.org/).
 
 ### Variant Specifications
 
 - [CommonMark](https://commonmark.org/): A strongly defined, highly compatible specification of Markdown.
-- [GitHub Flavored Markdown (GFM)](https://github.com/gfm): It is based on CommonMark, and supports syntax extensions such as: tables, task lists, autolinking, strikethrough, and disallowing some raw HTML. It supports some specific features to github such as: mentions.
-- [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/): This is an extension of markdown originally written in PHP but ported to other languages, it implements it's own specific set of amendments and extensions including: markdown inside HTML, definition lists, abbreviations, and footnotes. 
+- [GitHub Flavored Markdown (GFM)](https://github.com/gfm): It is based on CommonMark, and supports syntax extensions such as: tables, task lists, autolinking, and strikethrough. It supports some specific features to github such as mentions.
+- [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/): This is an extension of markdown originally written in PHP but ported to other languages. It implements it's own specific set of amendments and extensions including: markdown inside HTML, definition lists, abbreviations, and footnotes. 
 
 
 ## How do I use it?
 
 ### Editor
 
-To author and view a document there are many editors and plugins for applications available, they usually give you a live preview pane. Some give you WYSIWYG controls, special modes, document structure overview, and export options to generate the markdown into different formats. I will mention a few popular options here, this is not meant to be an exhaustive list!
+To author and view a document there are many editors and plugins for applications available, they usually give you a live preview pane. Some give you [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) controls, special modes, document structure overview, and export options to generate the markdown into different formats. I will mention a few popular options here, this is not meant to be an exhaustive list!
 
-![Stackedit screenshot](/img/stackedit-screenshot.jpg)
+![StackEdit screenshot](/img/stackedit-screenshot.jpg)
 
 Online editors:
-- [StackEdit](https://stackedit.io/app): StackEdit is a WYSIWYG-style editor with excellent all-round markdown support. Its features include the ability to sync and save files to third-party services (Google Drive, Dropbox), output to various file formats (HTML, PDF), configure style and metadata properties for files, and work offline. It is opensource. You signup to use some features.
-- [Dillinger](https://dillinger.io/): Dillinger has a minimalistic interface. Its features include the ability to import files from various sources, save files to third-party services (Google Drive, Dropbox), and output to various file formats (HTML, Styled HTML, PDF). It is 100% opensource. It requires no signup.
+- [StackEdit](https://stackedit.io/app): StackEdit is a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) style editor with excellent all-round markdown support. Its features include: the ability to sync and save files to third-party services (Google Drive, Dropbox), output to various file formats (HTML, PDF), configure style and metadata properties for files, and work offline. It is opensource. You must signup to use some features.
+- [Dillinger](https://dillinger.io/): Dillinger has a minimalistic interface. Its features include: the ability to import files from various sources, save files to third-party services (Google Drive, Dropbox), and output to various file formats (HTML, Styled HTML, PDF). It is 100% opensource. It requires no signup.
 
 Desktop editors:
 - [IA Writer](https://ia.net/writer): Considered to be a “gold standard” for markdown editors. It's clean and easy to use, and designed to remove distractions so you can focus on the task at hand. It comes equipped with a preview option, focus mode, and custom keyboard shelf that keeps all your necessary tools and Markdown shortcuts close by. With loads of export options, iA Writer is an ideal choice for mobile writing. Available for Mac, Windows, iOS, and Android.
 - [Typora](https://typora.io): Comprehensive and robust editor with syntax highlighting,support for advanced Markdown features such as mathematics and diagrams, and a wide range of export options. Typora automatically hides Markdown formatting, showing instead a preview of the final document. Available for Windows and Mac.
 
 IDEs:
-- [Atom](https://atom.io/): Provides a built-in side-by-side HTML preview. Other plugins available.
-- [Visual Code Studio](https://code.visualstudio.com/): Provides a built-in side-by-side HTML preview. Other plugins available.
+- [Atom](https://atom.io/): Provides a built-in side-by-side preview. Other plugins available.
+- [Visual Code Studio](https://code.visualstudio.com/): Provides a built-in side-by-side preview. Other plugins available.
 
 ### Static Site Generators
 
-[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) will package your markdown files into a website. They both require some setup to organise your content to produce a website, but once you learn their way of doing things, it can be a productive way to create and maintain a website. This has become a popular trend, and Github Pages uses Jekyll.
+[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) will package your markdown files into a website. They both require some setup to organise your content to produce a website, but once you learn their way of doing things, it can be a productive way to create and maintain a website. This has become a popular trend, and Github Pages uses Jekyll behind the scenes.
 
 ### Build Tools
 
@@ -106,6 +112,11 @@ A paragraph is simply one or more consecutive lines of text, separated by one or
 	##### This is a Heading Level 5 (<h5>)
 	###### This is a Heading Level 6 (<h6>)
 
+To create a heading, add hashes in front of a word or phrase. The number of hashes corresponds to the heading level.
+
+Alternative: you can use `==` for heading 1, `--` for heading 2. 
+
+
 ### Emphasis
 
 	*This text will be italic*
@@ -115,33 +126,62 @@ A paragraph is simply one or more consecutive lines of text, separated by one or
 	__This will also be bold__
 
 	_You **can** combine them_
+	
+Asteriskes are preferred over underscores.
 
-### Unordered List
+### Lists
+
+#### Unordered List
 
 	* Item 1
 	* Item 2
 	  * Item 2a
 	  * Item 2b
 
-### Ordered List
+becomes:
+
+* Item 1
+* Item 2
+	* Item 2a
+	* Item 2b
+
+Add asterisks (\*) in front of line items. 
+
+To create a nested list, indent the list item by 4 spaces or a tab.
+	 
+Alternative: You can use a plus sign (/+) or hyphen (-) instead of an asterisk.
+
+#### Ordered List
 
 	1. Item 1
 	1. Item 2
 	1. Item 3
 	   1. Item 3a
 	   1. Item 3b
+	   
+becomes:
+
+1. Item 1
+1. Item 2
+1. Item 3
+	1. Item 3a
+	1. Item 3b
+
+To create an ordered list, preced an item with a number followed by a dot. The numbers don’t have to be in numerical order, but the list should start with the number one.
+
+To create a nested list, indent the list item by 4 spaces or a tab.
 
 ### Images
 
 	![logo](/images/logo.png)
 	
-Format: \!\[Alt Text\]\(url\)
+Format: *`![alternative text](URL)`*
 
 ### Links
 
 	[Github](http://github.com)
 
-Format: \[Link text\]\(url\)
+Format: *`[link text\]\(url\)`*
 	
 Markdown supports a shortcut style for creating “automatic” links for URLs and email addresses: simply surround the URL or email address with angle brackets. 
 
@@ -220,9 +260,7 @@ Markdown provides backslash escapes for the following characters:
 
 ### Tables
 
-You can create tables by use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. 
-
-You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
+You can create tables by using 3 or more hyphens (---) to create each column header, and by using pipes (|) to separate each column. 
 
 	First Header | Second Header
 	------------ | -------------
@@ -236,15 +274,19 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-You can format the text within tables. For example, you can add links, code (words or phrases in backticks (`) only, not code blocks), and emphasis.
+You can format the text within tables. For example, you can add links, code (words or phrases in backticks (\`) only, not code blocks), and emphasis.
 
-<aside>Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the <a href="https://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a>.</aside>
+You can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags inside a table.
+
+Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables).
 
 ### Fenced Code Blocks
 
- Depending on the Markdown parser, you’ll use three backticks (```) or three tildes (~~~) on the lines before and after the code block. You can specify syntax highlighting for the fenced code block by specifying a language next to the backticks before the fenced code block.
+Depending on the Markdown parser, you’ll use three backticks or three tildes (~) on the lines before and after the code block. 
 
- \`\`\`json
+You can specify syntax highlighting for the fenced code block by specifying a language next to the backticks before the fenced code block.
+
+\`\`\`json
 \{
   "firstName": "John",
   "lastName": "Smith",
@@ -276,7 +318,7 @@ To create a footnote reference, add a caret and an identifier inside brackets ([
 
 	Here's a simple footnote,[^1].
 
-	[^1]: This is the first footnote.
+	[^1]: This is my first footnote.
 
 ### Heading IDs
 
@@ -304,7 +346,7 @@ becomes this:
 
 ### Strikethrough
 
-Use 2 tildes (~~) before and after the words.
+Use 2 tildes (~) before and after the words.
 
 	~~The world is flat.~~
 
@@ -316,7 +358,7 @@ becomes this:
 
 Task lists allow you to create a list of action items with checkboxes. 
 
-To create a task list, add dashes (-) and brackets with a space ([ ]) in front of task list items. To select a checkbox, add an x in between the brackets ([x]).
+To create a task list, add dashes and square brackets with a space in front of task list items. To select a checkbox, add an x in between the brackets, as below.
 
 	- [x] Write the press release
 	- [ ] Update the website
@@ -339,3 +381,7 @@ Some Markdown applications allow you to insert emoji by typing shortcodes. You s
 becomes this:
 
 That is so funny! :joy:
+
+### Escape Characters
+
+Also, the pipe character (|) can be escaped. This is included when tables are supported.
