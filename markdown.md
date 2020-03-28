@@ -12,7 +12,8 @@
 
 Markdown is a minimal [markup langauge](https://en.wikipedia.org/wiki/Markup_language) to produce documents for the internet. Documents have a *.md* and *.markdown* file extension.
 
-In 2004, John Gruber wrote and released the informal specification for Markdown. Markdown was designed to produce documents that are easy to write and read. The motivation was to create a more eloquent alternative to writing in HTML, which can be tedious adding tags to "mark" every piece of content. Markdown has a simple syntax in plain text. 
+In 2004, John Gruber wrote and released the informal specification for Markdown. 
+The motivation was to create a more eloquent alternative to writing in HTML, which can be tedious adding tags to "mark" every piece of content. Markdown has a simple syntax in plain text. 
 
 ### Philosophy
 
@@ -85,7 +86,7 @@ IDEs:
 
 ### Static Site Generators
 
-[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) will package your markdown files into a website. They both require some setup to organise your content to produce a website, but once you learn their way of doing things, it can be a productive way to create and maintain a website. This has become a popular trend, and Github Pages uses Jekyll behind the scenes.
+[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) will package your markdown files into a website. They both require some setup to organise your content to produce a website, but once you learn their way of doing things, it can be a productive way to create and maintain a website. This has become a popular trend, Github Pages uses Jekyll behind the scenes.
 
 ### Build Tools
 
@@ -135,21 +136,17 @@ Asteriskes are preferred over underscores.
 
 	* Item 1
 	* Item 2
-	  * Item 2a
-	  * Item 2b
-
-becomes:
-
-* Item 1
-* Item 2
-	* Item 2a
-	* Item 2b
 
 Add asterisks (\*) in front of line items. 
 
 To create a nested list, indent the list item by 4 spaces or a tab.
+
+	* Item 1
+	* Item 2
+		* Item 2a
+		* Item 2b
 	 
-Alternative: You can use a plus sign (/+) or hyphen (-) instead of an asterisk.
+Alternative: You can use a plus sign (/+) or hyphen (-) instead of an asterisk. You can also use these interchangeably.
 
 #### Ordered List
 
@@ -159,17 +156,15 @@ Alternative: You can use a plus sign (/+) or hyphen (-) instead of an asterisk.
 	   1. Item 3a
 	   1. Item 3b
 	   
-becomes:
-
-1. Item 1
-1. Item 2
-1. Item 3
-	1. Item 3a
-	1. Item 3b
-
-To create an ordered list, preced an item with a number followed by a dot. The numbers don’t have to be in numerical order, but the list should start with the number one.
+To create an ordered list, precede an item with a number followed by a dot. The numbers don’t have to be in numerical order, but the list should start with the number one.
 
 To create a nested list, indent the list item by 4 spaces or a tab.
+
+	1. Item 1
+	1. Item 2
+	1. Item 3
+		1. Item 3a
+		1. Item 3b
 
 ### Images
 
@@ -177,21 +172,51 @@ To create a nested list, indent the list item by 4 spaces or a tab.
 	
 Format: *`![alternative text](URL)`*
 
+
 ### Links
 
 	[Github](http://github.com)
 
 Format: *`[link text\]\(url\)`*
+
+#### Adding a title
+
+To add a title, enclose it in parentheses after the URL.
+
+	![logo](/images/logo.png "Go to home page")
+	
+### Shortcut style
 	
 Markdown supports a shortcut style for creating “automatic” links for URLs and email addresses: simply surround the URL or email address with angle brackets. 
 
-Markdown will turn this:
+Markdown will turn this: `<http://example.com/>` into this HTML: `<a href="http://example.com/">http://example.com/</a>`.
 
-	<http://example.com/>
+### Reference style
 
-into:
+Reference-style links are there to improve readability. 
 
-	<a href="http://example.com/">http://example.com/</a>
+They are constructed in two parts: 
+
+1. the part you keep inline with your text
+
+   format: `[link text][label]`
+   
+1. the part you store separately somewhere in the file.
+
+	format: `[label]: [URL] "title"`
+
+For example:
+
+
+	If you want to learn markdown, you cannot go wrong by reading [this tutorial][1]. Happy learning!
+
+	[1]: https://github.com/robole/markdown-reference "Markdown Reference Repository"
+
+The first part has a label in the second set of brackets, which you define yourself. It is not case sensitive and can include letters, numbers, spaces, or punctuation.
+
+The second part of a reference-style link has the label in the first set of brackets, which matches the label from the first part. The title for the link can be enclosed in double quotes, single quotes, or parentheses.
+
+You can place the second part of the link anywhere in the document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document.
 
 
 ### Blockquotes
@@ -324,7 +349,7 @@ To create a footnote reference, add a caret and an identifier inside brackets ([
 
 Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.
 
-	### My Heading {#custom-id}
+	### My Heading {custom-id}
 
 becomes this:
 
@@ -346,7 +371,7 @@ becomes this:
 
 ### Strikethrough
 
-Use 2 tildes (~) before and after the words.
+Add 2 tildes (~) before and after the words.
 
 	~~The world is flat.~~
 
