@@ -203,7 +203,7 @@ They are constructed in two parts:
    
 1. the part you store separately somewhere in the file.
 
-	format: `[label]: [URL] "title"`
+	format: `[label]: URL "title"`
 
 For example:
 

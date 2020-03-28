@@ -10,7 +10,7 @@ This is a comprehensive and succint reference for markdown. Its includes the fol
 	![cheatsheet page 1](img/cheatsheet.jpg)
 	
 	### Markdown Cheatsheet (Minimum).pdf
-	![cheatsheet page 2](img/cheatsheet(minimum).jpg)
+	![cheatsheet page 2](img/cheatsheet-minimum.jpg)
 	
 1. **Complete reference**: A more detailed look into all things markdown can be found in the [repository wiki](https://github.com/robole/markdown-cheatsheet/wiki). This has the same content as `markdown.md`. 
 
