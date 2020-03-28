@@ -5,12 +5,12 @@
 This is a comprehensive and succint reference for markdown. Its includes the following:
 
 1. **Cheatsheet**: There are 2 versions as below. You can find the `docx`  and `pdf` of each.
-
-	### Markdown Cheatsheet.pdf
-	![cheatsheet page 1](img/cheatsheet.jpg)
 	
 	### Markdown Cheatsheet (Minimum).pdf
 	![cheatsheet page 2](img/cheatsheet-minimum.jpg)
+	
+	### Markdown Cheatsheet.pdf
+	![cheatsheet page 1](img/cheatsheet.jpg)
 	
 1. **Complete reference**: A more detailed look into all things markdown can be found in the [repository wiki](https://github.com/robole/markdown-cheatsheet/wiki). This has the same content as `markdown.md`. 
 
