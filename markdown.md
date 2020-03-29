@@ -3,16 +3,17 @@
 1. [What is it?](#what-is-it)
 1. [Why use it?](#why-use-it)
 1. [Specifications](#specifications)
-1. [How do I use it?](#how-do-i-use-it)
+1. [What do I use to create documents?](#what-do-i-use-to-create-documents)
 1. [Syntax](#syntax)
 1. [Extended Syntax](#extended-syntax)
+1. [Applications](#applications)
 
 
 ## What is it?
 
-Markdown is a minimal [markup langauge](https://en.wikipedia.org/wiki/Markup_language) to produce documents for the internet. Documents have a *.md* and *.markdown* file extension.
+Markdown is a minimal [markup langauge](https://en.wikipedia.org/wiki/Markup_language) to produce documents for the internet. Documents have a *.md* or *.markdown* file extension.
 
-In 2004, John Gruber wrote and released the informal specification for Markdown. The motivation was to create a more eloquent alternative to writing in HTML, which can be tedious adding tags to "mark" every piece of content. Markdown has a simple and succinct syntax, which makes it easier to write. 
+In 2004, John Gruber wrote and released the informal specification for Markdown. The motivation was to create a more eloquent alternative to writing in HTML, which can be tedious adding tags to *mark* every piece of content. Markdown has a simple and succinct syntax, which makes it easier to write. 
 
 ### Philosophy
 
@@ -34,17 +35,17 @@ It is used for building websites and blogs in tools like: Jekyll, Hugo, Github P
 
 The syntax is short and simple to use. It is not that much different than plain text.
 
-### Easy to convert to HTML and other formats
+### Easy to convert to other formats
 
 There are many different applications available to convert markdown to HTML and other formats reliably. 
 
 ### Use any text editor
 
-Any text editor can be used.
+Any text editor can be used to write a markdown document.
 
 ### Portable format
 
-It is a plain text format and is not tied to any Operating System or application.
+It is a plain text format and is not tied to particular Operating System or application.
 
 ## Specifications
 
@@ -52,9 +53,9 @@ In 2004, John Gruber wrote and released an informal specification with his [synt
 
 ### Standardization
 
-Markdown has been widely embraced and adopted. However, the initial specification of Markdown contained ambiguities and unanswered questions, and no complete de-facto standard has ever really existed, this has resulted in implementations having some subtle differences, and many now come have been extended with extra features. 
+Markdown has been widely embraced and adopted. However, the initial specification of Markdown contained ambiguities and unanswered questions, and recieved some criticism for these shortcomings. No official standard has ever existed. This has resulted in implementations having some differences, and many now come have extra features implemented in different ways. 
 
-There were different efforts to standardize implementations and form an official standard, but none proved successful. In 2012, a group began an organised effort to form a standard, John Gruber objected to their plans, and eventually it became an alternative specification called [CommonMark](https://commonmark.org/).
+There were a few efforts to standardize implementations and form an official standard, but none proved successful. In 2012, a group began an organised effort to form an official standard, John Gruber objected to their plans, and eventually it became an alternative specification called [CommonMark](https://commonmark.org/).
 
 ### Variant Specifications
 
@@ -63,37 +64,15 @@ There were different efforts to standardize implementations and form an official
 - [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/): This is an extension of markdown originally written in PHP but ported to other languages. It implements it's own specific set of amendments and extensions including: markdown inside HTML, definition lists, abbreviations, and footnotes. 
 
 
-## How do I use it?
+## What do I use to create documents?
 
-### Editor
+To write a document you can use a simple text editor, such as notepad that comes with Windows. You need a more specialised editor to view the output, and convert the markdown file to other formats.
 
-To author and view a document there are many editors and plugins for applications available, they usually give you a live preview pane. Some give you [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) controls, special modes, document structure overview, and export options to generate the markdown into different formats. I will mention a few popular options here, this is not meant to be an exhaustive list!
+To be able to view the output, editors typically give you a live preview pane like *StackEdit* in the picture below. Most applications give you the option to export it as to other formats, HTML and PDF are the most common options. 
 
 ![StackEdit screenshot](./img/stackedit-screenshot.jpg)
 
-Online editors:
-- [StackEdit](https://stackedit.io/app): StackEdit is a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) style editor with excellent all-round markdown support. Its features include: the ability to sync and save files to third-party services (Google Drive, Dropbox), output to various file formats (HTML, PDF), configure style and metadata properties for files, and work offline. It is opensource. You must signup to use some features.
-- [Dillinger](https://dillinger.io/): Dillinger has a minimalistic interface. Its features include: the ability to import files from various sources, save files to third-party services (Google Drive, Dropbox), and output to various file formats (HTML, Styled HTML, PDF). It is 100% opensource. It requires no signup.
-
-Desktop editors:
-- [IA Writer](https://ia.net/writer): Considered to be a **"gold standard"** for markdown editors. It's slick and easy to use, and designed to remove distractions so you can focus on the task at hand. It comes equipped with: a preview option, focus mode, and custom keyboard shelf that keeps all your necessary tools and Markdown shortcuts close by, and loads of export options. **Paid versions** are available for Mac, Windows, iOS, and Android. 
-- [Typora](https://typora.io): A **minimal** editor with a very clean interface. It has a good set of features including: syntax highlighting, focus mode, support for mathematics and diagrams, and a wide range of export options. Typora automatically hides Markdown formatting, showing instead a preview of the final document. **Free versions** are available for Windows and Mac.
-
-IDEs:
-- [Atom](https://atom.io/): Provides a built-in side-by-side preview. Other plugins available.
-- [Visual Code Studio](https://code.visualstudio.com/): Provides a built-in side-by-side preview. Other plugins available.
-
-### Static Site Generators
-
-[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) will package your markdown files into a website. They both require some setup to organise your content to produce a website, but once you learn their way of doing things, it can be a productive way to create and maintain a website. This has become a popular trend, Github Pages uses Jekyll behind the scenes.
-
-### Build Tools
-
-Webpack, Gulp, and other build tools have markdown packages for integrating markdown related tasks into your build process.
-
-### Command-line Tools
-
-[Pandoc](https://github.com/jgm/pandoc) is popular to use on the command-line for bulk conversion.
+You can read the [Applications section](#applications) if you want help to pick an application for your needs. 
 
 ## Syntax
 
@@ -404,3 +383,34 @@ That is so funny! :joy:
 ### Escape Characters
 
 Also, the pipe character (|) can be escaped. This is included when tables are supported.
+
+## Applications
+
+There are so many different choices in applications for authoring, viewing, and converting markdown documents. I will mention a few popular options here, this is not meant to be an exhaustive list!
+
+### Online editors
+
+- [Dillinger](https://dillinger.io/): Dillinger has a minimal interface. Its features include: the ability to import files from various sources, save files to third-party services (Google Drive, Dropbox), and output to various file formats (HTML, Styled HTML, PDF). It is **opensource**. **It requires no signup**.
+- [StackEdit](https://stackedit.io/app): StackEdit is a **[What You See Is What You Get  (WYSIWYG)](https://en.wikipedia.org/wiki/WYSIWYG)** style editor with excellent all-round markdown support. Its features include: the ability to sync and save files to third-party services (Google Drive, Dropbox), output to various file formats (HTML, PDF), configurable style and metadata properties for files, and the ability to work offline. It is **opensource**. You **must signup to use some features**.
+
+### Desktop editors
+
+- [Typora](https://typora.io): A **minimal** editor with a very clean interface. It has a good set of features including: syntax highlighting, focus mode, support for mathematics and diagrams, and a wide range of export options. Typora automatically hides Markdown formatting, showing instead a preview of the final document. **Free versions** are available for Windows and Mac. I use this!
+- [IA Writer](https://ia.net/writer): Considered to be a **"gold standard"** for markdown editors. It's slick and easy to use, and designed to remove distractions so you can focus on the task at hand. Its features include: a preview option, focus mode, a custom keyboard shelf that keeps all your necessary tools close by, and loads of export options. **Paid versions** are available for Mac, Windows, iOS, and Android. 
+
+### Integrated Development Environments (IDEs)
+
+- [Atom](https://atom.io/): Provides a built-in side-by-side preview. Other plugins available.
+- [Visual Code Studio](https://code.visualstudio.com/): Provides a built-in side-by-side preview. Other plugins available.
+
+### Static Site Generators
+
+[Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) will package your markdown files into a website. They both require some setup to organise your content according to their requirements, but once you learn their way, it can be a productive way to create and maintain a website. This has become a popular trend, Github Pages uses Jekyll behind the scenes.
+
+### Build Tools
+
+Webpack, Gulp, and other build tools have markdown packages for integrating markdown related tasks into your build process.
+
+### Command-line Tools
+
+[Pandoc](https://github.com/jgm/pandoc) is the most popular command-line application. It has a staggering number of formats that you can export to.
