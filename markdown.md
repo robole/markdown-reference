@@ -2,7 +2,7 @@
 
 1. [What is it?](#what-is-it)
 1. [Why use it?](#why-use-it)
-1. [Specifications](#specifications)
+1. [Standard](#standard)
 1. [What do I use to create documents?](#what-do-i-use-to-create-documents)
 1. [Syntax](#syntax)
 1. [Extended Syntax](#extended-syntax)
@@ -13,7 +13,13 @@
 
 Markdown is a minimal [markup langauge](https://en.wikipedia.org/wiki/Markup_language) to produce documents for the internet. Documents have a *.md* or *.markdown* file extension.
 
-In 2004, John Gruber wrote and released the informal specification for Markdown. The motivation was to create a more eloquent alternative to writing in HTML, which can be tedious adding tags to *mark* every piece of content. Markdown has a simple and succinct syntax, which makes it easier to write. 
+In 2004, John Gruber wrote and released the informal specification for Markdown. The motivation was to create a more eloquent alternative to writing in HTML. It becomes tedious adding tags to *mark* every piece of content when writing a HTML document. Markdown has a simpler and more succinct syntax, which makes it easier to write. 
+
+Below, you can see a blog post, written in markdown on the left, and the generated HTML output on the right. Which would you prefer to write?
+
+![Side by side comparsion of Markdown and HTML](./img/blog-post-source-output.jpg)
+
+Markdown is not a replacement for HTML, it is there to empower people to write content without the larger formatting overhead of HTML, so it is used most often for content like blog posts.  Web Browsers do not understand a markdown document, so we still need to produce a HTML document from our markdown document. 
 
 ### Philosophy
 
@@ -27,7 +33,9 @@ In 2004, John Gruber wrote and released the informal specification for Markdown.
 
 ### It's widely used
 
-It's become widely used in comment sections and for formatting messages on popular websites and apps such as: Reddit, Stack Overflow, OpenStreetMap, Github, Facebook, Whatsapp, and Slack.
+It's become widely used for formatting messages on popular apps such as: Facebook, Whatsapp, and Slack.
+
+It's become widely used in forums, wikis, and comment sections on popular websites such as: Reddit, Stack Overflow, OpenStreetMap, Github, and Wikipedia.
 
 It is used for building websites and blogs in tools like: Jekyll, Hugo, Github Pages, Squarespace, and others.
 
@@ -47,13 +55,13 @@ Any text editor can be used to write a markdown document.
 
 It is a plain text format and is not tied to particular Operating System or application.
 
-## Specifications
+## Standard
 
-In 2004, John Gruber wrote and released an informal specification with his [syntax description](https://daringfireball.net/projects/markdown/syntax) and a Perl script (*Markdown.pl*). The idea was that the markdown source file is parsed by the script and transformed into a HTML file to be published online. 
+In 2004, John Gruber wrote and released an informal specification with his [syntax description](https://daringfireball.net/projects/markdown/syntax) and a Perl script (*Markdown.pl*). The idea was that the markdown source file is parsed by the script and transformed into a HTML file to be published online. These served as an informal standard.
 
 ### Standardization
 
-Markdown has been widely embraced and adopted. However, the initial specification of Markdown contained ambiguities and unanswered questions, and recieved some criticism for these shortcomings. No official standard has ever existed. This has resulted in implementations having some differences, and many now come have extra features implemented in different ways. 
+Markdown has been widely embraced and adopted. However, the initial specification of Markdown contained ambiguities and unanswered questions, and the script had a few bugs. It recieved some criticism for these shortcomings. This led to implementations having differences, and adding extra features implemented in different ways. 
 
 There were a few efforts to standardize implementations and form an official standard, but none proved successful. In 2012, a group began an organised effort to form an official standard, John Gruber objected to their plans, and eventually it became an alternative specification called [CommonMark](https://commonmark.org/).
 
@@ -407,10 +415,10 @@ There are so many different choices in applications for authoring, viewing, and 
 
 [Jekyll](https://jekyllrb.com) and [Hugo](https://gohugo.io) will package your markdown files into a website. They both require some setup to organise your content according to their requirements, but once you learn their way, it can be a productive way to create and maintain a website. This has become a popular trend, Github Pages uses Jekyll behind the scenes.
 
-### Build Tools
+### Developer Tools
 
-Webpack, Gulp, and other build tools have markdown packages for integrating markdown related tasks into your build process.
+[Webpack](https://webpack.js.org/), [Gulp](https://gulpjs.com/), and other developer tools have markdown packages for integrating markdown related tasks into your development process.
 
 ### Command-line Tools
 
-[Pandoc](https://github.com/jgm/pandoc) is the most popular command-line application. It has a staggering number of formats that you can export to.
+[Pandoc](https://github.com/jgm/pandoc) is the most popular command-line application used. It has a staggering number of formats that you can export to.
